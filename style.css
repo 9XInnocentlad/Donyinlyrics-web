@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-top;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background: linear-gradient(to right, rgb(0, 255, 55), rgb(3, 70, 255));
+}
+.player{
+    position: absolute;
+    width: 350px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
+}
+.player .imagebox {
+        position: relative;
+        width: 100%;
+        height: 450px;
+   }
+ .player .imagebox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+   }
+   .player audio{
+    width: 100%;
+    outline: none;
+   }
+   #lyrics{
+    font-size: 1.5em;
+   }
